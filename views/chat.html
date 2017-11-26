@@ -57,7 +57,6 @@
                     <div class="box-header with-border">
                         <h3 class="box-title">Online Members</h3>
                     </div>
-                    <!-- /.box-header -->
                     <div class="box-body direct-chat-messages">
                         <div class="sidebar-name" ng-repeat="friend in online_friends track by $index">
                             <a href="" ng-click="chat_popup(friend)">
@@ -71,15 +70,13 @@
                     <div class="box-header with-border">
                         <h3 class="box-title">Active Members</h3>
                     </div>
-                    <!-- /.box-header -->
                     <div class="box-body direct-chat-messages">
-                        <ul class="users-list clearfix" >
-                            <li ng-repeat="user in users">
-                                <button  data-toggle="modal" data-target="#myModal" ng-click="friend_request(user)"> 
-                                    <img src="images/new_image.png" alt="User Image">
-                                    <a class="users-list-name">{{user}}</a></button>
-                            </li>  
-                        </ul>
+                        <div ng-repeat="user in users">
+                            <a href="" data-toggle="modal" data-target="#myModal" ng-click="friend_request(user)">
+                                <img width="30" height="30" src="images/new_image.png" alt="User Image" />
+                                <span class="users-list-name">{{user}}</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,6 +84,7 @@
 
     </div>
     <!-- /.row -->
+
     <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">

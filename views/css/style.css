@@ -177,6 +177,7 @@ body
 }
 .popup-messages .direct-chat-messages {
     height: auto;
+    overflow-x: hidden;
 }
 .popup-messages .direct-chat-text {
     background: #dfece7 none repeat scroll 0 0;

@@ -332,7 +332,6 @@ app.controller('myController',['$scope','socket','$http','$mdDialog','$compile',
                         <li><a href="javascript:;">Email Chat</a></li>\
                         </ul>\
                         </div>\
-                        <button  ng-click="close_chat(\''+chat_friend+'\')" class="chat-header-button pull-right" type="button">  <i class="glyphicon glyphicon-remove"></i></button>\
                         </div>\
                         </div>\
                         <div class="box-body popup-messages">\
