@@ -27,3 +27,5 @@ Your server will be setup and ready for use.
 * Login from the same screen.  
 `Note: User Name should be unique for every user.`
 
+### Screen shots
+* Go to the directory views/screenshots to see the screenshots.
