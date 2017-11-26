@@ -326,11 +326,6 @@ app.controller('myController',['$scope','socket','$http','$mdDialog','$compile',
                         <div class="btn-group">\
                         <button class="chat-header-button" data-toggle="dropdown" type="button" aria-expanded="false">\
                         <i class="glyphicon glyphicon-cog"></i> </button>\
-                        <ul role="menu" class="dropdown-menu pull-right">\
-                        <li><a href="javascript:;">Block</a></li>\
-                        <li><a href="javascript:;">Clear Chat</a></li>\
-                        <li><a href="javascript:;">Email Chat</a></li>\
-                        </ul>\
                         </div>\
                         </div>\
                         </div>\
